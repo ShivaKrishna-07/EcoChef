@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter basename='/EcoChef'>
       <Navbar/>
       <Routes>
-        <Route path='/EcoChef' element={ <Home/>}/>
+        <Route path='/' element={ <Home/>}/>
         <Route path='/recipes' element={ <Recipes/>}/>
       </Routes>
     </BrowserRouter>
