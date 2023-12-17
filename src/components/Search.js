@@ -1,6 +1,5 @@
 import { Grid, Input, Form } from "semantic-ui-react";
 import React, { useState } from "react";
-import { margin } from "@mui/system";
 
 export default function Search({ setSearchedQuery }) {
   const [value, setValue] = useState("");
